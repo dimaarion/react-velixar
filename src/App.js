@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Orthodox from "./pages/Orthodox";
 import Graphics from "./pages/Graphics";
 import Painting from "./pages/Painting";
+import Foto from "./pages/Foto";
 import baseUrlSite from "./sittens/baseUrlSite.json";
 import { Container, Row, Col, BDiv } from "bootstrap-4-react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -24,6 +25,9 @@ export default function App() {
         </Route>
          <Route path="/painting">
           <Painting/>
+        </Route>
+        <Route path="/foto">
+          <F/>
         </Route>
          <Route>
          <h1>Такой страницы не существует</h1>
