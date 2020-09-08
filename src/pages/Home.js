@@ -8,24 +8,31 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function Home() {
   return (
     <BDiv className="app">
-      <Link to="/">
-        {" "}
-        <img
-          className="logo"
-          width="100%"
-          src={baseUrlSite.site + "img/interface.png"}
-        />
-      </Link>
-      <img
-        className="photo"
-        width="100%"
-        src={baseUrlSite.site + "img/interface4.png"}
-      />
       <img
         className="arnament"
         width="100%"
         src={baseUrlSite.site + "img/interface2.png"}
       />
+      <Row>
+        <Col>
+          <Link to="/">
+            {" "}
+            <img
+              className="logo"
+              width="100%"
+              src={baseUrlSite.site + "img/logo.png"}
+            />
+          </Link>
+        </Col>
+        <Col>
+          <img
+            className="photo"
+            width="100%"
+            src={baseUrlSite.site + "img/interface4.png"}
+          />
+        </Col>
+      </Row>
+
       <Row text="center">
         <BDiv style={{ width: "4%" }} />
         <Col style={{ marginTop: "30%" }}>
