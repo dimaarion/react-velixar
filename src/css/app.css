@@ -10,5 +10,8 @@
  padding: 100px;
  z-index: 1;
  position: a;
- margin-top: -80px;
+ 
+}
+.arnament{
+  z-index: 1;
 }

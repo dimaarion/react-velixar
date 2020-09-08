@@ -15,22 +15,23 @@ function Home() {
       />
       <Row>
         <Col>
-          <Link to="/">
+        
             {" "}
             <img
               className="logo"
               width="100%"
               src={baseUrlSite.site + "img/logo.png"}
             />
-          </Link>
+       
         </Col>
         <Col>
           <img
             className="photo"
             width="100%"
-            src={baseUrlSite.site + "img/velixar.png"}
+            src={baseUrlSite.site + "img/velixar2.png"}
           />
         </Col>
+        <Col col = "1"/>
       </Row>
 
       <Row text="center">
