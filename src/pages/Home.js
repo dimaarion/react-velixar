@@ -9,6 +9,7 @@ function Home() {
   return (
     <BDiv className="app" style = {{backgroundImage:"url(" + baseUrlSite.site + "img/fon3.png)"}}>
       <img
+      
         className="arnament"
         width="100%"
         src={baseUrlSite.site + "img/interface2.png"}

@@ -27,7 +27,7 @@ export default function App() {
           <Painting/>
         </Route>
         <Route path="/foto">
-          <F/>
+          <Foto/>
         </Route>
          <Route>
          <h1>Такой страницы не существует</h1>
