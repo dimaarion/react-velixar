@@ -24,9 +24,8 @@ export default function App() {
         src={baseUrlSite.site + "img/interface2.png"}
       />
       <Row>
-        <Col  pl = "5" style = {{marginTop:"30%", backgroundImage:'url(' + baseUrlSite.site + 'img/fknp.png)' }}>
-          
-         
+        <Col  pl = "5" style = {{marginTop:"30%" }}>
+          <img width = "100%" src={baseUrlSite.site + "img/graphicscpn.png"} />
         </Col>
          <Col style = {{marginTop:"35%"}}>
           <img width = "100%" src={baseUrlSite.site + "img/fknp.png"} />
