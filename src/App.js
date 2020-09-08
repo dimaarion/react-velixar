@@ -26,6 +26,7 @@ export default function App() {
       <Row>
         <Col pl = "5" style = {{marginTop:"30%"}}>
           <img width = "100%" src={baseUrlSite.site + "img/fknp.png"} />
+          <img width = "100%" src={baseUrlSite.site + "img/orthodox.png"} />
         </Col>
          <Col style = {{marginTop:"35%"}}>
           <img width = "100%" src={baseUrlSite.site + "img/fknp.png"} />
