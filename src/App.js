@@ -24,7 +24,7 @@ export default function App() {
         src={baseUrlSite.site + "img/interface2.png"}
       />
       <Row>
-        <Col  pl = "5" style = {{marginTop:"30%" }}>
+        <Col  ml = "5" pl = "" style = {{marginTop:"30%" }}>
           <img width = "100%" src={baseUrlSite.site + "img/orthodox2.png"} />
         </Col>
          <Col style = {{marginTop:"35%"}}>
@@ -33,7 +33,7 @@ export default function App() {
          <Col style = {{marginTop:"35%"}}>
           <img width = "100%" src={baseUrlSite.site + "img/painting2.png"} />
         </Col>
-         <Col pr = "5" style = {{marginTop:"30%"}}>
+         <Col mr = "5" pr = "2" style = {{marginTop:"30%"}}>
           <img width = "100%" src={baseUrlSite.site + "img/foto2.png"} />
         </Col>
       </Row>
