@@ -4,5 +4,10 @@
 }
 .orthodox{
  position: absolute;
- background-image: 
+}
+.logo{
+ display: block;
+ padding: 100px;
+z-index: 1;
+position: relative;
 }
