@@ -7,7 +7,7 @@ import { Container, Row, Col, BDiv } from "bootstrap-4-react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function Home() {
   return (
-    <BDiv className="app">
+    <BDiv className="app" style = {{backgroundImage:"url(" + baseUrlSite.site + "img/fon3.png)"}}>
       <img
         className="arnament"
         width="100%"
