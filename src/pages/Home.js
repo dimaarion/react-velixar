@@ -1,5 +1,9 @@
 import React from "react";
-
+import "../style.css";
+import "../css/bootstrap.css";
+import "../css/app.css";
+import baseUrlSite from "../sittens/baseUrlSite.json";
+import { Container, Row, Col, BDiv } from "bootstrap-4-react";
 function Home(){
   return (
    <BDiv className="app">
@@ -35,8 +39,6 @@ function Home(){
         </Col>
         <BDiv style = {{width:"4%" }} />
       </Row>
-      
-     
     </BDiv>
   )
-} 
+} export default Home
