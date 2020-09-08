@@ -34,7 +34,7 @@ export default function App() {
           <img width = "100%" src={baseUrlSite.site + "img/painting2.png"} />
         </Col>
          <Col pr = "5" style = {{marginTop:"30%"}}>
-          <img width = "100%" src={baseUrlSite.site + "img/fknp.png"} />
+          <img width = "100%" src={baseUrlSite.site + "img/foto2.png"} />
         </Col>
       </Row>
     </BDiv>
