@@ -8,7 +8,12 @@ export default function App() {
     <BDiv className = "app">
     <img className = "fon" src = "https://cdn.jsdelivr.net/gh/dimaarion/react-velixar@master/public/img/fon3.png"/>
    <Row >
-
+<Col>
+<img width = "100%" src = "https://cdn.jsdelivr.net/gh/dimaarion/react-velixar@master/public/img/interface.png"/>
+</Col>
+<Col>
+<img width = "100%" src = "https://cdn.jsdelivr.net/gh/dimaarion/react-velixar@master/public/img/interface.png"/>
+</Col>
    </Row>
      
     </BDiv>
