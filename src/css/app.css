@@ -1,4 +1,4 @@
-.app .fon{
+.fon, .logo, .photo{
  position: absolute;
  width: 100%;
 }
