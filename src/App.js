@@ -23,19 +23,21 @@ export default function App() {
         width="100%"
         src={baseUrlSite.site + "img/interface2.png"}
       />
-      <Row>
-        <Col  ml = "5" pl = "" style = {{marginTop:"30%" }}>
+      <Row text = "center">
+      <BDiv style = {{width:"4%" }} />
+        <Col   style = {{marginTop:"30%" }}>
           <img width = "100%" src={baseUrlSite.site + "img/orthodox2.png"} />
         </Col>
-         <Col style = {{marginTop:"35%"}}>
+         <Col  style = {{marginTop:"35%"}}>
           <img width = "100%" src={baseUrlSite.site + "img/graphicscpn2.png"} />
         </Col>
-         <Col style = {{marginTop:"35%"}}>
+         <Col  style = {{marginTop:"35%"}}>
           <img width = "100%" src={baseUrlSite.site + "img/painting2.png"} />
         </Col>
-         <Col mr = "5" pr = "2" style = {{marginTop:"30%"}}>
+         <Col   style = {{marginTop:"30%"}}>
           <img width = "100%" src={baseUrlSite.site + "img/foto2.png"} />
         </Col>
+        <BDiv style = {{width:"4%" }} />
       </Row>
     </BDiv>
   );

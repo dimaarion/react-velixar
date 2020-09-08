@@ -5,7 +5,8 @@
   "dependencies": {
     "bootstrap-4-react": "^0.0.59",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
