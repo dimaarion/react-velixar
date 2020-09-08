@@ -28,7 +28,7 @@ function Home() {
           <img
             className="photo"
             width="100%"
-            src={baseUrlSite.site + "img/interface4.png"}
+            src={baseUrlSite.site + "img/velixar.png"}
           />
         </Col>
       </Row>
