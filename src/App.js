@@ -5,7 +5,7 @@ import "./css/app.css";
 import baseUrlSite from "./sittens/baseUrlSite.json";
 import { Container, Row, Col, BDiv } from "bootstrap-4-react";
 export default function App() {
-  console.log(baseUrlSite);
+ 
   return (
     <BDiv className="app">
       <img className="fon" src={baseUrlSite.site + "img/fon3.png"} />
