@@ -8,7 +8,6 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function Home() {
   return (
     <BDiv className="app">
-      <img className="fon" src={baseUrlSite.site + "img/fon3.png"} />
       <Link to="/">
         {" "}
         <img
