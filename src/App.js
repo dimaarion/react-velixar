@@ -7,6 +7,7 @@ export default function App() {
   return (
     <BDiv className = "app">
      dddd
+     <img src = "img/fon.png"/>
     </BDiv>
   );
 }
