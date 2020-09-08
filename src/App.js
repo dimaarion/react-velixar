@@ -4,6 +4,12 @@ import "./css/bootstrap.css";
 import "./css/app.css";
 import baseUrlSite from "./sittens/baseUrlSite.json";
 import { Container, Row, Col, BDiv } from "bootstrap-4-react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 export default function App() {
   return (
     <BDiv className="app">
@@ -39,6 +45,11 @@ export default function App() {
         </Col>
         <BDiv style = {{width:"4%" }} />
       </Row>
+      <Switch>
+      <Route exact path="/">
+            <Home />
+          </Route>
+      </Switch>
     </BDiv>
   );
 }
