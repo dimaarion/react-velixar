@@ -37,18 +37,18 @@ function Home() {
 
       <Row text="center">
         <BDiv style={{ width: "4%" }} />
-        <Col style={{ marginTop: "30%" }} className="orthodox">
-        <Link to = "orthodox"><img width="100%" src={baseUrlSite.site + "img/orthodox2.png"} /></Link>
+        <Col style={{ marginTop: "30%", zIndex:2 }} className="orthodox">
+        <Link to = "/orthodox"><img width="100%" src={baseUrlSite.site + "img/orthodox2.png"} /></Link>
           
         </Col>
-        <Col style={{ marginTop: "35%" }}>
-          <img width="100%" src={baseUrlSite.site + "img/graphicscpn2.png"} />
+        <Col style={{ marginTop: "35%", zIndex:2 }}>
+          <Link to = "/graphics"><img width="100%" src={baseUrlSite.site + "img/graphicscpn2.png"} /></Link>
         </Col>
-        <Col style={{ marginTop: "35%" }}>
-          <img width="100%" src={baseUrlSite.site + "img/painting2.png"} />
+        <Col style={{ marginTop: "35%", zIndex:2 }}>
+          <Link to = "/painting"><img width="100%" src={baseUrlSite.site + "img/painting2.png"} /></Link>
         </Col>
-        <Col style={{ marginTop: "30%" }}>
-          <img width="100%" src={baseUrlSite.site + "img/foto2.png"} />
+        <Col style={{ marginTop: "35%", zIndex:2 }}>
+          <Link to = "/foto"><img width="100%" src={baseUrlSite.site + "img/foto2.png"} /></Link>
         </Col>
         <BDiv style={{ width: "4%" }} />
       </Row>
