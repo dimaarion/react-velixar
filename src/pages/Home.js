@@ -14,15 +14,16 @@ function Home() {
         src={baseUrlSite.site + "img/interface2.png"}
       />
       <Row>
+      <BDiv style={{ width: "3%" }}/>
         <Col>
-        
+        <Link to = "/">
             {" "}
             <img
               className="logo"
               width="100%"
-              src={baseUrlSite.site + "img/logo.png"}
+              src={baseUrlSite.site + "img/logo2.png"}
             />
-       
+       </Link>
         </Col>
         <Col>
           <img
