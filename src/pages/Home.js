@@ -14,16 +14,16 @@ function Home() {
         src={baseUrlSite.site + "img/interface2.png"}
       />
       <Row>
-      <BDiv style={{ width: "3%" }}/>
+        <BDiv style={{ width: "3%" }} />
         <Col>
-        <Link to = "/">
+          <Link to="/">
             {" "}
             <img
               className="logo"
               width="100%"
               src={baseUrlSite.site + "img/logo2.png"}
             />
-       </Link>
+          </Link>
         </Col>
         <Col>
           <img
@@ -32,13 +32,14 @@ function Home() {
             src={baseUrlSite.site + "img/velixar2.png"}
           />
         </Col>
-        <Col col = "1"/>
+        <Col col="1" />
       </Row>
 
       <Row text="center">
         <BDiv style={{ width: "4%" }} />
-        <Col style={{ marginTop: "30%" }}>
-          <img width="100%" src={baseUrlSite.site + "img/orthodox2.png"} />
+        <Col style={{ marginTop: "30%" }} className="orthodox">
+        <Link to = "orthodox"><img width="100%" src={baseUrlSite.site + "img/orthodox2.png"} /></Link>
+          
         </Col>
         <Col style={{ marginTop: "35%" }}>
           <img width="100%" src={baseUrlSite.site + "img/graphicscpn2.png"} />

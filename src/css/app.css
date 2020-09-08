@@ -15,3 +15,9 @@
 .arnament{
   z-index: 1;
 }
+.orthodox{
+  z-index: 2;
+}
+.orthodox a{
+ display: block;
+}
